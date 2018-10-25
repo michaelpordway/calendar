@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Calendar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <style>
+      table {
+         border-style: solid;
+         border-color: black;
+      }
+      td {
+         border-style: solid;
+         border-color: black;
+         text-align: center;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <script>
+      function changeTo999999() {
+      document.querySelector('#d00030h').innerHTML = 999999;
+      }
+
+      function addInput() {
+        var f = document.createElement("form");
+        f.action = 'blah.php';
+        f.method = 'POST';
+        var textInput = document.createElement("input");
+        textInput.type= 'text';
+        textInput.name= 'wrestler';
+        textInput.value= 'Type in a Wrestler';
+        f.appendChild(textInput);
+        var submitButton = document.createElement("input");
+        submitButton.type = 'submit';
+      submitButton.value = 'Click to Submit';
+      f.appendChild(submitButton);
+      document.querySelector('#d00000h').appendChild(f);
+      } 
+      
+    </script>
+    <table>
+      <tbody>
+        <tr id='0000row'>
+          <td id='0000data'>12:00AM</td>
+          <td id='d00000h' onclick="addInput()">1</td>
+          <td id='d10000h'>49</td>
+          <td id='d20000h'>97</td>
+          <td id='d30000h'>145</td>
+          <td id='d40000h'>193</td>
+          <td id='d50000h'>241</td>
+          <td id='d60000h'>289</td>
+        </tr>
+        <tr id='0030row'>
+          <td id='0030data'>12:30AM</td>
+          <td id='d00030h' onclick="changeTo999999()">2</td>
+          <td id='d10030h'>50</td>
+          <td id='d20030h'>98</td>
+          <td id='d30030h'>146</td>
+          <td id='d40030h'>194</td>
+          <td id='d50030h'>242</td>
+          <td id='d60030h'>290</td>
+        </tr>
+        <tr id='0100row'>
+          <td id='0100data'>1:00AM</td>
+          <td id='d00100h'>3</td>
+          <td id='d10100h'>51</td>
+          <td id='d20100h'>99</td>
+          <td id='d30100h'>147</td>
+          <td id='d40100h'>195</td>
+          <td id='d50100h'>243</td>
+          <td id='d60100h'>291</td>
+        </tr>
+        <tr id='0130row'>
+          <td id='0130data'>1:30AM</td>
+          <td id='d00130h'>4</td>
+          <td id='d10130h'>52</td>
+          <td id='d20130h'>100</td>
+          <td id='d30130h'>148</td>
+          <td id='d40130h'>196</td>
+          <td id='d50130h'>244</td>
+          <td id='d60130h'>292</td>
+        </tr>
+        <tr id='0200row'>
+          <td id='0200data'>2:00AM</td>
+          <td id='d00200h'>5</td>
+          <td id='d10200h'>53</td>
+          <td id='d20200h'>101</td>
+          <td id='d30200h'>149</td>
+          <td id='d40200h'>197</td>
+          <td id='d50200h'>245</td>
+          <td id='d60200h'>293</td>
+        </tr>
+        <tr id='0230row'>
+          <td id='0230data'>2:30AM</td>
+          <td id='d00230h'>6</td>
+          <td id='d10230h'>54</td>
+          <td id='d20230h'>102</td>
+          <td id='d30230h'>150</td>
+          <td id='d40230h'>198</td>
+          <td id='d50230h'>246</td>
+          <td id='d60230h'>294</td>
+        </tr>
+        <tr id='0300row'>
+          <td id='0300data'>3:00AM</td>
+          <td id='d00300h'>7</td>
+          <td id='d10300h'>55</td>
+          <td id='d20300h'>103</td>
+          <td id='d30300h'>151</td>
+          <td id='d40300h'>199</td>
+          <td id='d50300h'>247</td>
+          <td id='d60300h'>295</td>
+        </tr>
+        <tr id='0330row'>
+          <td id='0330data'>3:30AM</td>
+          <td id='d00330h'>8</td>
+          <td id='d10330h'>56</td>
+          <td id='d20330h'>104</td>
+          <td id='d30330h'>152</td>
+          <td id='d40330h'>200</td>
+          <td id='d50330h'>248</td>
+          <td id='d60330h'>296</td>
+        </tr>
+        <tr id='0400row'>
+          <td id='0400data'>4:00AM</td>
+          <td id='d00400h'>9</td>
+          <td id='d10400h'>57</td>
+          <td id='d20400h'>105</td>
+          <td id='d30400h'>153</td>
+          <td id='d40400h'>201</td>
+          <td id='d50400h'>249</td>
+          <td id='d60400h'>297</td>
+        </tr>
+        <tr id='0430row'>
+          <td id='0430data'>4:30AM</td>
+          <td id='d00430h'>10</td>
+          <td id='d10430h'>58</td>
+          <td id='d20430h'>106</td>
+          <td id='d30430h'>154</td>
+          <td id='d40430h'>202</td>
+          <td id='d50430h'>250</td>
+          <td id='d60430h'>298</td>
+        </tr>
+        <tr id='0500row'>
+          <td id='0500data'>5:00AM</td>
+          <td id='d00500h'>11</td>
+          <td id='d10500h'>59</td>
+          <td id='d20500h'>107</td>
+          <td id='d30500h'>155</td>
+          <td id='d40500h'>203</td>
+          <td id='d50500h'>251</td>
+          <td id='d60500h'>299</td>
+        </tr>
+        <tr id='0530row'>
+          <td id='0530data'>5:30AM</td>
+          <td id='d00530h'>12</td>
+          <td id='d10530h'>60</td>
+          <td id='d20530h'>108</td>
+          <td id='d30530h'>156</td>
+          <td id='d40530h'>204</td>
+          <td id='d50530h'>252</td>
+          <td id='d60530h'>300</td>
+        </tr>
+        <tr id='0600row'>
+          <td id='0600data'>6:00AM</td>
+          <td id='d00600h'>13</td>
+          <td id='d10600h'>61</td>
+          <td id='d20600h'>109</td>
+          <td id='d30600h'>157</td>
+          <td id='d40600h'>205</td>
+          <td id='d50600h'>253</td>
+          <td id='d60600h'>301</td>
+        </tr>
+        <tr id='0630row'>
+          <td id='0630data'>6:30AM</td>
+          <td id='d00630h'>14</td>
+          <td id='d10630h'>62</td>
+          <td id='d20630h'>110</td>
+          <td id='d30630h'>158</td>
+          <td id='d40630h'>206</td>
+          <td id='d50630h'>254</td>
+          <td id='d60630h'>302</td>
+        </tr>
+        <tr id='0700row'>
+          <td id='0700data'>7:00AM</td>
+          <td id='d00700h'>15</td>
+          <td id='d10700h'>63</td>
+          <td id='d20700h'>111</td>
+          <td id='d30700h'>159</td>
+          <td id='d40700h'>207</td>
+          <td id='d50700h'>255</td>
+          <td id='d60700h'>303</td>
+        </tr>
+        <tr id='0730row'>
+          <td id='0730data'>7:30AM</td>
+          <td id='d00730h'>16</td>
+          <td id='d10730h'>64</td>
+          <td id='d20730h'>112</td>
+          <td id='d30730h'>160</td>
+          <td id='d40730h'>208</td>
+          <td id='d50730h'>256</td>
+          <td id='d60730h'>304</td>
+        </tr>
+        <tr id='0800row'>
+          <td id='0800data'>8:00AM</td>
+          <td id='d00800h'>17</td>
+          <td id='d10800h'>65</td>
+          <td id='d20800h'>113</td>
+          <td id='d30800h'>161</td>
+          <td id='d40800h'>209</td>
+          <td id='d50800h'>257</td>
+          <td id='d60800h'>305</td>
+        </tr>
+        <tr id='0830row'>
+          <td id='0830data'>8:30AM</td>
+          <td id='d00830h'>18</td>
+          <td id='d10830h'>66</td>
+          <td id='d20830h'>114</td>
+          <td id='d30830h'>162</td>
+          <td id='d40830h'>210</td>
+          <td id='d50830h'>258</td>
+          <td id='d60830h'>306</td>
+        </tr>
+        <tr id='0900row'>
+          <td id='0900data'>9:00AM</td>
+          <td id='d00900h'>19</td>
+          <td id='d10900h'>67</td>
+          <td id='d20900h'>115</td>
+          <td id='d30900h'>163</td>
+          <td id='d40900h'>211</td>
+          <td id='d50900h'>259</td>
+          <td id='d60900h'>307</td>
+        </tr>
+        <tr id='0930row'>
+          <td id='0930data'>9:30AM</td>
+          <td id='d00930h'>20</td>
+          <td id='d10930h'>68</td>
+          <td id='d20930h'>116</td>
+          <td id='d30930h'>164</td>
+          <td id='d40930h'>212</td>
+          <td id='d50930h'>260</td>
+          <td id='d60930h'>308</td>
+        </tr>
+        <tr id='1000row'>
+          <td id='1000data'>10:00AM</td>
+          <td id='d01000h'>21</td>
+          <td id='d11000h'>69</td>
+          <td id='d21000h'>117</td>
+          <td id='d31000h'>165</td>
+          <td id='d41000h'>213</td>
+          <td id='d51000h'>261</td>
+          <td id='d61000h'>309</td>
+        </tr>
+        <tr id='1030row'>
+          <td id='1030data'>10:30AM</td>
+          <td id='d01030h'>22</td>
+          <td id='d11030h'>70</td>
+          <td id='d21030h'>118</td>
+          <td id='d31030h'>166</td>
+          <td id='d41030h'>214</td>
+          <td id='d51030h'>262</td>
+          <td id='d61030h'>310</td>
+        </tr>
+        <tr id='1100row'>
+          <td id='1100data'>11:00AM</td>
+          <td id='d01100h'>23</td>
+          <td id='d11100h'>71</td>
+          <td id='d21100h'>119</td>
+          <td id='d31100h'>167</td>
+          <td id='d41100h'>215</td>
+          <td id='d51100h'>263</td>
+          <td id='d61100h'>311</td>
+        </tr>
+        <tr id='1130row'>
+          <td id='1130data'>11:30AM</td>
+          <td id='d01130h'>24</td>
+          <td id='d11130h'>72</td>
+          <td id='d21130h'>120</td>
+          <td id='d31130h'>168</td>
+          <td id='d41130h'>216</td>
+          <td id='d51130h'>264</td>
+          <td id='d61130h'>312</td>
+        </tr>
+        <tr id='1200row'>
+          <td id='1200data'>12:00PM</td>
+          <td id='d01200h'>25</td>
+          <td id='d11200h'>73</td>
+          <td id='d21200h'>121</td>
+          <td id='d31200h'>169</td>
+          <td id='d41200h'>217</td>
+          <td id='d51200h'>265</td>
+          <td id='d61200h'>313</td>
+        </tr>
+        <tr id='1230row'>
+          <td id='1230data'>12:30PM</td>
+          <td id='d01230h'>26</td>
+          <td id='d11230h'>74</td>
+          <td id='d21230h'>122</td>
+          <td id='d31230h'>170</td>
+          <td id='d41230h'>218</td>
+          <td id='d51230h'>266</td>
+          <td id='d61230h'>314</td>
+        </tr>
+        <tr id='1300row'>
+          <td id='1300data'>1:00PM</td>
+          <td id='d01300h'>27</td>
+          <td id='d11300h'>75</td>
+          <td id='d21300h'>123</td>
+          <td id='d31300h'>171</td>
+          <td id='d41300h'>219</td>
+          <td id='d51300h'>267</td>
+          <td id='d61300h'>315</td>
+        </tr>
+        <tr id='1330row'>
+          <td id='1330data'>1:30PM</td>
+          <td id='d01330h'>28</td>
+          <td id='d11330h'>76</td>
+          <td id='d21330h'>124</td>
+          <td id='d31330h'>172</td>
+          <td id='d41330h'>220</td>
+          <td id='d51330h'>268</td>
+          <td id='d61330h'>316</td>
+        </tr>
+        <tr id='1400row'>
+          <td id='1400data'>2:00PM</td>
+          <td id='d01400h'>29</td>
+          <td id='d11400h'>77</td>
+          <td id='d21400h'>125</td>
+          <td id='d31400h'>173</td>
+          <td id='d41400h'>221</td>
+          <td id='d51400h'>269</td>
+          <td id='d61400h'>317</td>
+        </tr>
+        <tr id='1430row'>
+          <td id='1430data'>2:30PM</td>
+          <td id='d01430h'>30</td>
+          <td id='d11430h'>78</td>
+          <td id='d21430h'>126</td>
+          <td id='d31430h'>174</td>
+          <td id='d41430h'>222</td>
+          <td id='d51430h'>270</td>
+          <td id='d61430h'>318</td>
+        </tr>
+        <tr id='1500row'>
+          <td id='1500data'>3:00PM</td>
+          <td id='d01500h'>31</td>
+          <td id='d11500h'>79</td>
+          <td id='d21500h'>127</td>
+          <td id='d31500h'>175</td>
+          <td id='d41500h'>223</td>
+          <td id='d51500h'>271</td>
+          <td id='d61500h'>319</td>
+        </tr>
+        <tr id='1530row'>
+          <td id='1530data'>3:30PM</td>
+          <td id='d01530h'>32</td>
+          <td id='d11530h'>80</td>
+          <td id='d21530h'>128</td>
+          <td id='d31530h'>176</td>
+          <td id='d41530h'>224</td>
+          <td id='d51530h'>272</td>
+          <td id='d61530h'>320</td>
+        </tr>
+        <tr id='1600row'>
+          <td id='1600data'>4:00PM</td>
+          <td id='d01600h'>33</td>
+          <td id='d11600h'>81</td>
+          <td id='d21600h'>129</td>
+          <td id='d31600h'>177</td>
+          <td id='d41600h'>225</td>
+          <td id='d51600h'>273</td>
+          <td id='d61600h'>321</td>
+        </tr>
+        <tr id='1630row'>
+          <td id='1630data'>4:30PM</td>
+          <td id='d01630h'>34</td>
+          <td id='d11630h'>82</td>
+          <td id='d21630h'>130</td>
+          <td id='d31630h'>178</td>
+          <td id='d41630h'>226</td>
+          <td id='d51630h'>274</td>
+          <td id='d61630h'>322</td>
+        </tr>
+        <tr id='1700row'>
+          <td id='1700data'>5:00PM</td>
+          <td id='d01700h'>35</td>
+          <td id='d11700h'>83</td>
+          <td id='d21700h'>131</td>
+          <td id='d31700h'>179</td>
+          <td id='d41700h'>227</td>
+          <td id='d51700h'>275</td>
+          <td id='d61700h'>323</td>
+        </tr>
+        <tr id='1730row'>
+          <td id='1730data'>5:30PM</td>
+          <td id='d01730h'>36</td>
+          <td id='d11730h'>84</td>
+          <td id='d21730h'>132</td>
+          <td id='d31730h'>180</td>
+          <td id='d41730h'>228</td>
+          <td id='d51730h'>276</td>
+          <td id='d61730h'>324</td>
+        </tr>
+        <tr id='1800row'>
+          <td id='1800data'>6:00PM</td>
+          <td id='d01800h'>37</td>
+          <td id='d11800h'>85</td>
+          <td id='d21800h'>133</td>
+          <td id='d31800h'>181</td>
+          <td id='d41800h'>229</td>
+          <td id='d51800h'>277</td>
+          <td id='d61800h'>325</td>
+        </tr>
+        <tr id='1830row'>
+          <td id='1830data'>6:30PM</td>
+          <td id='d01830h'>38</td>
+          <td id='d11830h'>86</td>
+          <td id='d21830h'>134</td>
+          <td id='d31830h'>182</td>
+          <td id='d41830h'>230</td>
+          <td id='d51830h'>278</td>
+          <td id='d61830h'>326</td>
+        </tr>
+        <tr id='1900row'>
+          <td id='1900data'>7:00PM</td>
+          <td id='d01900h'>39</td>
+          <td id='d11900h'>87</td>
+          <td id='d21900h'>135</td>
+          <td id='d31900h'>183</td>
+          <td id='d41900h'>231</td>
+          <td id='d51900h'>279</td>
+          <td id='d61900h'>327</td>
+        </tr>
+        <tr id='1930row'>
+          <td id='1930data'>7:30PM</td>
+          <td id='d01930h'>40</td>
+          <td id='d11930h'>88</td>
+          <td id='d21930h'>136</td>
+          <td id='d31930h'>184</td>
+          <td id='d41930h'>232</td>
+          <td id='d51930h'>280</td>
+          <td id='d61930h'>328</td>
+        </tr>
+        <tr id='2000row'>
+          <td id='2000data'>8:00PM</td>
+          <td id='d02000h'>41</td>
+          <td id='d12000h'>89</td>
+          <td id='d22000h'>137</td>
+          <td id='d32000h'>185</td>
+          <td id='d42000h'>233</td>
+          <td id='d52000h'>281</td>
+          <td id='d62000h'>329</td>
+        </tr>
+        <tr id='2030row'>
+          <td id='2030data'>8:30PM</td>
+          <td id='d02030h'>42</td>
+          <td id='d12030h'>90</td>
+          <td id='d22030h'>138</td>
+          <td id='d32030h'>186</td>
+          <td id='d42030h'>234</td>
+          <td id='d52030h'>282</td>
+          <td id='d62030h'>330</td>
+        </tr>
+        <tr id='2100row'>
+          <td id='2100data'>9:00PM</td>
+          <td id='d02100h'>43</td>
+          <td id='d12100h'>91</td>
+          <td id='d22100h'>139</td>
+          <td id='d32100h'>187</td>
+          <td id='d42100h'>235</td>
+          <td id='d52100h'>283</td>
+          <td id='d62100h'>331</td>
+        </tr>
+        <tr id='2130row'>
+          <td id='2130data'>9:30PM</td>
+          <td id='d02130h'>44</td>
+          <td id='d12130h'>92</td>
+          <td id='d22130h'>140</td>
+          <td id='d32130h'>188</td>
+          <td id='d42130h'>236</td>
+          <td id='d52130h'>284</td>
+          <td id='d62130h'>332</td>
+        </tr>
+        <tr id='2200row'>
+          <td id='2200data'>10:00PM</td>
+          <td id='d02200h'>45</td>
+          <td id='d12200h'>93</td>
+          <td id='d22200h'>141</td>
+          <td id='d32200h'>189</td>
+          <td id='d42200h'>237</td>
+          <td id='d52200h'>285</td>
+          <td id='d62200h'>333</td>
+        </tr>
+        <tr id='2230row'>
+          <td id='2230data'>10:30PM</td>
+          <td id='d02230h'>46</td>
+          <td id='d12230h'>94</td>
+          <td id='d22230h'>142</td>
+          <td id='d32230h'>190</td>
+          <td id='d42230h'>238</td>
+          <td id='d52230h'>286</td>
+          <td id='d62230h'>334</td>
+        </tr>
+        <tr id='2300row'>
+          <td id='2300data'>11:00PM</td>
+          <td id='d02300h'>47</td>
+          <td id='d12300h'>95</td>
+          <td id='d22300h'>143</td>
+          <td id='d32300h'>191</td>
+          <td id='d42300h'>239</td>
+          <td id='d52300h'>287</td>
+          <td id='d62300h'>335</td>
+        </tr>
+        <tr id='2330row'>
+          <td id='2330data'>11:30PM</td>
+          <td id='d02330h'>48</td>
+          <td id='d12330h'>96</td>
+          <td id='d22330h'>144</td>
+          <td id='d32330h'>192</td>
+          <td id='d42330h'>240</td>
+          <td id='d52330h'>288</td>
+          <td id='d62330h'>336</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

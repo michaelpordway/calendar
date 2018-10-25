@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Calendar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+    <h1>This is how we do it</h1>
+    <table>
+      <thead>
+        <th>Time</th>
+        <th>Sunday</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+      </thead>
+      <tbody>
+        <tr id='0000'>
+          <td id='d10000d'>1</td>
+          <td id='d20000d'>2</td>
+          <td id='d30000d'>3</td>
+          <td id='d40000d'>4</td>
+          <td id='d50000d'>5</td>
+          <td id='d60000d'>6</td>
+          <td id='d70000d'>7</td>
+        </tr>
+        <tr id='0030'>
+          <td id='d10030d'>8</td>
+          <td id='d20030d'>9</td>
+          <td id='d30030d'>10</td>
+          <td id='d40030d'>11</td>
+          <td id='d50030d'>12</td>
+          <td id='d60030d'>13</td>
+          <td id='d70030d'>14</td>
+        </tr>
+        <tr id='0100'>
+          <td id='d10100d'>15</td>
+          <td id='d20100d'>16</td>
+          <td id='d30100d'>17</td>
+          <td id='d40100d'>18</td>
+          <td id='d50100d'>19</td>
+          <td id='d60100d'>20</td>
+          <td id='d70100d'>21</td>
+        </tr>
+        <tr id='0130'>
+          <td id='d10130d'>22</td>
+          <td id='d20130d'>23</td>
+          <td id='d30130d'>24</td>
+          <td id='d40130d'>25</td>
+          <td id='d50130d'>26</td>
+          <td id='d60130d'>27</td>
+          <td id='d70130d'>28</td>
+        </tr>
+        <tr id='0200'>
+          <td id='d10200d'>29</td>
+          <td id='d20200d'>30</td>
+          <td id='d30200d'>31</td>
+          <td id='d40200d'>32</td>
+          <td id='d50200d'>33</td>
+          <td id='d60200d'>34</td>
+          <td id='d70200d'>35</td>
+        </tr>
+        <tr id='0230'>
+          <td id='d10230d'>36</td>
+          <td id='d20230d'>37</td>
+          <td id='d30230d'>38</td>
+          <td id='d40230d'>39</td>
+          <td id='d50230d'>40</td>
+          <td id='d60230d'>41</td>
+          <td id='d70230d'>42</td>
+        </tr>
+        <tr id='0300'>
+          <td id='d10300d'>43</td>
+          <td id='d20300d'>44</td>
+          <td id='d30300d'>45</td>
+          <td id='d40300d'>46</td>
+          <td id='d50300d'>47</td>
+          <td id='d60300d'>48</td>
+          <td id='d70300d'>49</td>
+        </tr>
+        <tr id='0330'>
+          <td id='d10330d'>50</td>
+          <td id='d20330d'>51</td>
+          <td id='d30330d'>52</td>
+          <td id='d40330d'>53</td>
+          <td id='d50330d'>54</td>
+          <td id='d60330d'>55</td>
+          <td id='d70330d'>56</td>
+        </tr>
+        <tr id='0400'>
+          <td id='d10400d'>57</td>
+          <td id='d20400d'>58</td>
+          <td id='d30400d'>59</td>
+          <td id='d40400d'>60</td>
+          <td id='d50400d'>61</td>
+          <td id='d60400d'>62</td>
+          <td id='d70400d'>63</td>
+        </tr>
+        <tr id='0430'>
+          <td id='d10430d'>64</td>
+          <td id='d20430d'>65</td>
+          <td id='d30430d'>66</td>
+          <td id='d40430d'>67</td>
+          <td id='d50430d'>68</td>
+          <td id='d60430d'>69</td>
+          <td id='d70430d'>70</td>
+        </tr>
+        <tr id='0500'>
+          <td id='d10500d'>71</td>
+          <td id='d20500d'>72</td>
+          <td id='d30500d'>73</td>
+          <td id='d40500d'>74</td>
+          <td id='d50500d'>75</td>
+          <td id='d60500d'>76</td>
+          <td id='d70500d'>77</td>
+        </tr>
+        <tr id='0530'>
+          <td id='d10530d'>78</td>
+          <td id='d20530d'>79</td>
+          <td id='d30530d'>80</td>
+          <td id='d40530d'>81</td>
+          <td id='d50530d'>82</td>
+          <td id='d60530d'>83</td>
+          <td id='d70530d'>84</td>
+        </tr>
+        <tr id='0600'>
+          <td id='d10600d'>85</td>
+          <td id='d20600d'>86</td>
+          <td id='d30600d'>87</td>
+          <td id='d40600d'>88</td>
+          <td id='d50600d'>89</td>
+          <td id='d60600d'>90</td>
+          <td id='d70600d'>91</td>
+        </tr>
+        <tr id='0630'>
+          <td id='d10630d'>92</td>
+          <td id='d20630d'>93</td>
+          <td id='d30630d'>94</td>
+          <td id='d40630d'>95</td>
+          <td id='d50630d'>96</td>
+          <td id='d60630d'>97</td>
+          <td id='d70630d'>98</td>
+        </tr>
+        <tr id='0700'>
+          <td id='d10700d'>99</td>
+          <td id='d20700d'>100</td>
+          <td id='d30700d'>101</td>
+          <td id='d40700d'>102</td>
+          <td id='d50700d'>103</td>
+          <td id='d60700d'>104</td>
+          <td id='d70700d'>105</td>
+        </tr>
+        <tr id='0730'>
+          <td id='d10730d'>106</td>
+          <td id='d20730d'>107</td>
+          <td id='d30730d'>108</td>
+          <td id='d40730d'>109</td>
+          <td id='d50730d'>110</td>
+          <td id='d60730d'>111</td>
+          <td id='d70730d'>112</td>
+        </tr>
+        <tr id='0800'>
+          <td id='d10800d'>113</td>
+          <td id='d20800d'>114</td>
+          <td id='d30800d'>115</td>
+          <td id='d40800d'>116</td>
+          <td id='d50800d'>117</td>
+          <td id='d60800d'>118</td>
+          <td id='d70800d'>119</td>
+        </tr>
+        <tr id='0830'>
+          <td id='d10830d'>120</td>
+          <td id='d20830d'>121</td>
+          <td id='d30830d'>122</td>
+          <td id='d40830d'>123</td>
+          <td id='d50830d'>124</td>
+          <td id='d60830d'>125</td>
+          <td id='d70830d'>126</td>
+        </tr>
+        <tr id='0900'>
+          <td id='d10900d'>127</td>
+          <td id='d20900d'>128</td>
+          <td id='d30900d'>129</td>
+          <td id='d40900d'>130</td>
+          <td id='d50900d'>131</td>
+          <td id='d60900d'>132</td>
+          <td id='d70900d'>133</td>
+        </tr>
+        <tr id='0930'>
+          <td id='d10930d'>134</td>
+          <td id='d20930d'>135</td>
+          <td id='d30930d'>136</td>
+          <td id='d40930d'>137</td>
+          <td id='d50930d'>138</td>
+          <td id='d60930d'>139</td>
+          <td id='d70930d'>140</td>
+        </tr>
+        <tr id='1000'>
+          <td id='d11000d'>141</td>
+          <td id='d21000d'>142</td>
+          <td id='d31000d'>143</td>
+          <td id='d41000d'>144</td>
+          <td id='d51000d'>145</td>
+          <td id='d61000d'>146</td>
+          <td id='d71000d'>147</td>
+        </tr>
+        <tr id='1030'>
+          <td id='d11030d'>148</td>
+          <td id='d21030d'>149</td>
+          <td id='d31030d'>150</td>
+          <td id='d41030d'>151</td>
+          <td id='d51030d'>152</td>
+          <td id='d61030d'>153</td>
+          <td id='d71030d'>154</td>
+        </tr>
+        <tr id='1100'>
+          <td id='d11100d'>155</td>
+          <td id='d21100d'>156</td>
+          <td id='d31100d'>157</td>
+          <td id='d41100d'>158</td>
+          <td id='d51100d'>159</td>
+          <td id='d61100d'>160</td>
+          <td id='d71100d'>161</td>
+        </tr>
+        <tr id='1130'>
+          <td id='d11130d'>162</td>
+          <td id='d21130d'>163</td>
+          <td id='d31130d'>164</td>
+          <td id='d41130d'>165</td>
+          <td id='d51130d'>166</td>
+          <td id='d61130d'>167</td>
+          <td id='d71130d'>168</td>
+        </tr>
+        <tr id='1200'>
+          <td id='d11200d'>169</td>
+          <td id='d21200d'>170</td>
+          <td id='d31200d'>171</td>
+          <td id='d41200d'>172</td>
+          <td id='d51200d'>173</td>
+          <td id='d61200d'>174</td>
+          <td id='d71200d'>175</td>
+        </tr>
+        <tr id='1230'>
+          <td id='d11230d'>176</td>
+          <td id='d21230d'>177</td>
+          <td id='d31230d'>178</td>
+          <td id='d41230d'>179</td>
+          <td id='d51230d'>180</td>
+          <td id='d61230d'>181</td>
+          <td id='d71230d'>182</td>
+        </tr>
+        <tr id='1300'>
+          <td id='d11300d'>183</td>
+          <td id='d21300d'>184</td>
+          <td id='d31300d'>185</td>
+          <td id='d41300d'>186</td>
+          <td id='d51300d'>187</td>
+          <td id='d61300d'>188</td>
+          <td id='d71300d'>189</td>
+        </tr>
+        <tr id='1330'>
+          <td id='d11330d'>190</td>
+          <td id='d21330d'>191</td>
+          <td id='d31330d'>192</td>
+          <td id='d41330d'>193</td>
+          <td id='d51330d'>194</td>
+          <td id='d61330d'>195</td>
+          <td id='d71330d'>196</td>
+        </tr>
+        <tr id='1400'>
+          <td id='d11400d'>197</td>
+          <td id='d21400d'>198</td>
+          <td id='d31400d'>199</td>
+          <td id='d41400d'>200</td>
+          <td id='d51400d'>201</td>
+          <td id='d61400d'>202</td>
+          <td id='d71400d'>203</td>
+        </tr>
+        <tr id='1430'>
+          <td id='d11430d'>204</td>
+          <td id='d21430d'>205</td>
+          <td id='d31430d'>206</td>
+          <td id='d41430d'>207</td>
+          <td id='d51430d'>208</td>
+          <td id='d61430d'>209</td>
+          <td id='d71430d'>210</td>
+        </tr>
+        <tr id='1500'>
+          <td id='d11500d'>211</td>
+          <td id='d21500d'>212</td>
+          <td id='d31500d'>213</td>
+          <td id='d41500d'>214</td>
+          <td id='d51500d'>215</td>
+          <td id='d61500d'>216</td>
+          <td id='d71500d'>217</td>
+        </tr>
+        <tr id='1530'>
+          <td id='d11530d'>218</td>
+          <td id='d21530d'>219</td>
+          <td id='d31530d'>220</td>
+          <td id='d41530d'>221</td>
+          <td id='d51530d'>222</td>
+          <td id='d61530d'>223</td>
+          <td id='d71530d'>224</td>
+        </tr>
+        <tr id='1600'>
+          <td id='d11600d'>225</td>
+          <td id='d21600d'>226</td>
+          <td id='d31600d'>227</td>
+          <td id='d41600d'>228</td>
+          <td id='d51600d'>229</td>
+          <td id='d61600d'>230</td>
+          <td id='d71600d'>231</td>
+        </tr>
+        <tr id='1630'>
+          <td id='d11630d'>232</td>
+          <td id='d21630d'>233</td>
+          <td id='d31630d'>234</td>
+          <td id='d41630d'>235</td>
+          <td id='d51630d'>236</td>
+          <td id='d61630d'>237</td>
+          <td id='d71630d'>238</td>
+        </tr>
+        <tr id='1700'>
+          <td id='d11700d'>239</td>
+          <td id='d21700d'>240</td>
+          <td id='d31700d'>241</td>
+          <td id='d41700d'>242</td>
+          <td id='d51700d'>243</td>
+          <td id='d61700d'>244</td>
+          <td id='d71700d'>245</td>
+        </tr>
+        <tr id='1730'>
+          <td id='d11730d'>246</td>
+          <td id='d21730d'>247</td>
+          <td id='d31730d'>248</td>
+          <td id='d41730d'>249</td>
+          <td id='d51730d'>250</td>
+          <td id='d61730d'>251</td>
+          <td id='d71730d'>252</td>
+        </tr>
+        <tr id='1800'>
+          <td id='d11800d'>253</td>
+          <td id='d21800d'>254</td>
+          <td id='d31800d'>255</td>
+          <td id='d41800d'>256</td>
+          <td id='d51800d'>257</td>
+          <td id='d61800d'>258</td>
+          <td id='d71800d'>259</td>
+        </tr>
+        <tr id='1830'>
+          <td id='d11830d'>260</td>
+          <td id='d21830d'>261</td>
+          <td id='d31830d'>262</td>
+          <td id='d41830d'>263</td>
+          <td id='d51830d'>264</td>
+          <td id='d61830d'>265</td>
+          <td id='d71830d'>266</td>
+        </tr>
+        <tr id='1900'>
+          <td id='d11900d'>267</td>
+          <td id='d21900d'>268</td>
+          <td id='d31900d'>269</td>
+          <td id='d41900d'>270</td>
+          <td id='d51900d'>271</td>
+          <td id='d61900d'>272</td>
+          <td id='d71900d'>273</td>
+        </tr>
+        <tr id='1930'>
+          <td id='d11930d'>274</td>
+          <td id='d21930d'>275</td>
+          <td id='d31930d'>276</td>
+          <td id='d41930d'>277</td>
+          <td id='d51930d'>278</td>
+          <td id='d61930d'>279</td>
+          <td id='d71930d'>280</td>
+        </tr>
+        <tr id='2000'>
+          <td id='d12000d'>281</td>
+          <td id='d22000d'>282</td>
+          <td id='d32000d'>283</td>
+          <td id='d42000d'>284</td>
+          <td id='d52000d'>285</td>
+          <td id='d62000d'>286</td>
+          <td id='d72000d'>287</td>
+        </tr>
+        <tr id='2030'>
+          <td id='d12030d'>288</td>
+          <td id='d22030d'>289</td>
+          <td id='d32030d'>290</td>
+          <td id='d42030d'>291</td>
+          <td id='d52030d'>292</td>
+          <td id='d62030d'>293</td>
+          <td id='d72030d'>294</td>
+        </tr>
+        <tr id='2100'>
+          <td id='d12100d'>295</td>
+          <td id='d22100d'>296</td>
+          <td id='d32100d'>297</td>
+          <td id='d42100d'>298</td>
+          <td id='d52100d'>299</td>
+          <td id='d62100d'>300</td>
+          <td id='d72100d'>301</td>
+        </tr>
+        <tr id='2130'>
+          <td id='d12130d'>302</td>
+          <td id='d22130d'>303</td>
+          <td id='d32130d'>304</td>
+          <td id='d42130d'>305</td>
+          <td id='d52130d'>306</td>
+          <td id='d62130d'>307</td>
+          <td id='d72130d'>308</td>
+        </tr>
+        <tr id='2200'>
+          <td id='d12200d'>309</td>
+          <td id='d22200d'>310</td>
+          <td id='d32200d'>311</td>
+          <td id='d42200d'>312</td>
+          <td id='d52200d'>313</td>
+          <td id='d62200d'>314</td>
+          <td id='d72200d'>315</td>
+        </tr>
+        <tr id='2230'>
+          <td id='d12230d'>316</td>
+          <td id='d22230d'>317</td>
+          <td id='d32230d'>318</td>
+          <td id='d42230d'>319</td>
+          <td id='d52230d'>320</td>
+          <td id='d62230d'>321</td>
+          <td id='d72230d'>322</td>
+        </tr>
+        <tr id='2300'>
+          <td id='d12300d'>323</td>
+          <td id='d22300d'>324</td>
+          <td id='d32300d'>325</td>
+          <td id='d42300d'>326</td>
+          <td id='d52300d'>327</td>
+          <td id='d62300d'>328</td>
+          <td id='d72300d'>329</td>
+        </tr>
+        <tr id='2330'>
+          <td id='d12330d'>330</td>
+          <td id='d22330d'>331</td>
+          <td id='d32330d'>332</td>
+          <td id='d42330d'>333</td>
+          <td id='d52330d'>334</td>
+          <td id='d62330d'>335</td>
+          <td id='d72330d'>336</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
